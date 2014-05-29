@@ -74,4 +74,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-alias vim="mvim"
+alias vim="open -a MacVim"
+
+#rbenv
+eval "$(rbenv init -)"
