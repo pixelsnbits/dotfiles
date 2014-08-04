@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/rgoeken/Documents/Cloud Engineering/git/puppet/modules/gd-firewall'
+let g:netrw_dirhist_2='/Users/rgoeken/Documents/Cloud Engineering/git/puppet/modules/gd-firewall/manifests'
+let g:netrw_dirhist_3='/Users/rgoeken/Documents/Cloud Engineering/git/puppet/hieradata/hostgroups'
+let g:netrw_dirhist_4='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/modules/gd_casperjs'
+let g:netrw_dirhist_5='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/modules/gd_casperjs/manifests'
+let g:netrw_dirhist_6='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/contrib/nodejs'
+let g:netrw_dirhist_7='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/contrib/nodejs/manifests'
+let g:netrw_dirhist_8='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/modules/gd_casperjs'
+let g:netrw_dirhist_9='/Users/rgoeken/Documents/Cloud Engineering/git/puppet-casperjs/modules/gd_casperjs/manifests'

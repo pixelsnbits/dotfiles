@@ -53,7 +53,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -74,7 +74,31 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-alias vim="open -a MacVim"
+
+#Add mvim options
+mvim () {
+    local f
+    for f; do
+        test -e "$f" || touch "$f"
+    done
+    open -a macvim "$@"
+}
+alias vim="mvim"
 
 #rbenv
 eval "$(rbenv init -)"
+
+#less with colors
+#alias vless='/usr/local/bin/mvim -R -u /usr/share/vim/vim73/macros/less.vim'
+alias vless='/usr/local/bin/mvim -R -u ~/Documents/Cloud\ Engineering/git/dotfiles/.less.vim'
+alias ll='ls -alh'
+alias cdgit='cd ~/Documents/Cloud\ Engineering/git/'
+alias cdpup='cd ~/Documents/Cloud\ Engineering/git/puppet'
+alias masterofpuppets='git checkout master && git pull --rebase'
+
+#Oracle InstantClient
+export ORACLE_HOME=/Library/Oracle/instantclient/11.2.0.4.0
+export DYLD_LIBRARY_PATH=$ORACLE_HOME
+export PATH=$PATH:$ORACLE_HOME
+export TNS_ADMIN=$ORACLE_HOME
+export SQLPATH=$ORACLE_HOME
