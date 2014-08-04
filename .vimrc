@@ -14,3 +14,4 @@ set lines=42 columns=138
 set transparency=3
 runtime! ftplugin/man.vim
 set laststatus=2
+let NERDTreeShowHidden=1
