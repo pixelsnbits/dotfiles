@@ -1,0 +1,14 @@
+[work]
+enabled=true
+jid=rgoeken@govdelivery.com
+resource=profanity
+muc.service=conference.im.office.gdi
+muc.nick=Ryan Goeken
+presence.last=online
+presence.login=last
+priority.online=0
+priority.chat=0
+priority.away=0
+priority.xa=0
+priority.dnd=0
+port=5222
